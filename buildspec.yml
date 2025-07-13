@@ -3,10 +3,11 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "Nothing to build."
+      - echo "Deploying index.html to S3 root..."
 
 artifacts:
   files:
     - index.html
   discard-paths: yes
+  base-directory: .
 
