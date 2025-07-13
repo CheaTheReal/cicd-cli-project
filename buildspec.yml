@@ -1,13 +1,9 @@
 version: 0.2
 
 phases:
-  install:
-    commands:
-      - echo "Installing..."
   build:
     commands:
-      - echo "Building..."
-
+      - echo "Build phase - no compilation needed"
 artifacts:
   files:
     - index.html
