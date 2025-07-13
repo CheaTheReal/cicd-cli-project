@@ -3,7 +3,8 @@ version: 0.2
 phases:
   build:
     commands:
-      - echo "Build phase - no compilation needed"
+      - echo "Nothing to build."
+
 artifacts:
   files:
     - index.html
